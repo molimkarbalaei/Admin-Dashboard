@@ -11,6 +11,20 @@ body,
   display: flex;
   position: relative;
 }
+
+/* for those scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on Over */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

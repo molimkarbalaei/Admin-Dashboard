@@ -1,6 +1,6 @@
 // get all the colors and types
 import { createContext, useState, useMemo } from "react";
-import { createTheme } from "@mui/system";
+import { createTheme } from "@mui/material/styles";
 
 //color design tokens:
 // mode represent dark or light mode:
@@ -146,7 +146,7 @@ export const themeSettings = (mode) => {
               light: colors.grey[100],
             },
             background: {
-              default: colors.primary[900],
+              default: colors.primary[600],
             },
           }
         : // palette values for light mode
